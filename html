@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DROID 5.0 - IEEE FISAT SB & IEEE RAS SBC FISAT</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-green: #00ff00;
+        }
+        body {
+            background-color: #000;
+            color: #fff;
+        }
+        .nav-link:hover {
+            color: var(--primary-green);
+        }
+        .btn-primary {
+            background-color: var(--primary-green);
+            color: black;
+        }
+        .btn-primary:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="bg-black p-4 fixed w-full top-0 z-50 border-b border-green-500">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-2xl font-bold text-green-500">DROID 5.0</div>
+            <div class="space-x-6">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#workshops" class="nav-link">Workshops</a>
+                <a href="#register" class="nav-link">Register</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-24 pb-12">
+        <div class="container mx-auto text-center">
+            <h1 class="text-5xl font-bold mb-4">DROID 5.0</h1>
+            <p class="text-xl mb-8">A three-day technical flagship event on Robotics</p>
+            <div class="text-green-500">
+                <p class="text-lg">July 13-15, 2025</p>
+                <p class="text-lg">FISAT Seminar Hall</p>
+                <p class="text-lg">9:00 AM - 4:30 PM</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-12 bg-gray-900">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center text-green-500">About Us</h2>
+            <div class="max-w-4xl mx-auto">
+                <p class="mb-4">IEEE FISAT SB [Federal Institute of Science and Technology Student Branch] is a technical organization under India Council in Kerala Chapter that has actively volunteered and conducted events to benefit Engineering students and enthusiasts.</p>
+                <p class="mb-4">IEEE FISAT SB is one of the best ongoing Student Branch Chapters. We provide our members with a heap of fundamental insight into Science, Robotics, and Automation by conducting numerous events like webinars, workshops, talk series, and much more.</p>
+                <p class="mb-4">This year, IEEE FISAT SB will commemorate its 20th anniversary after its auspicious foundation in 2003. As part of the celebrations, we are hosting 20 days of events including IMPULSE, DROID, and outreach programs like RIDE.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="register" class="py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center text-green-500">Registration</h2>
+            <div class="max-w-md mx-auto bg-gray-900 p-6 rounded-lg">
+                <div class="mb-6">
+                    <h3 class="text-2xl mb-4">Registration Fees</h3>
+                    <ul class="space-y-2">
+                        <li>IEEE RAS Member: ₹999</li>
+                        <li>IEEE Member: ₹1099</li>
+                        <li>Non-IEEE Member: ₹1199</li>
+                    </ul>
+                </div>
+                <button class="btn-primary w-full py-2 rounded">Register Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="py-12 bg-gray-900">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center text-green-500">Contact Us</h2>
+            <div class="max-w-md mx-auto">
+                <form class="space-y-4">
+                    <div>
+                        <input type="text" placeholder="Name" class="w-full p-2 rounded bg-black border border-green-500">
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Email" class="w-full p-2 rounded bg-black border border-green-500">
+                    </div>
+                    <div>
+                        <textarea placeholder="Message" rows="4" class="w-full p-2 rounded bg-black border border-green-500"></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary w-full py-2 rounded">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black py-8 border-t border-green-500">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-center space-x-6 mb-4">
+                <a href="https://www.facebook.com/ieeefisat/" class="text-green-500 hover:text-green-400">Facebook</a>
+                <a href="https://www.instagram.com/ieeefisatsb" class="text-green-500 hover:text-green-400">Instagram</a>
+            </div>
+            <div class="text-center text-sm">
+                <p>© 2025 IEEE FISAT SB. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
